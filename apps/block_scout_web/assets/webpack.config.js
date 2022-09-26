@@ -159,10 +159,15 @@ const appJs =
       new webpack.DefinePlugin({
         'process.env.SOCKET_ROOT': JSON.stringify(process.env.SOCKET_ROOT),
         'process.env.NETWORK_PATH': JSON.stringify(process.env.NETWORK_PATH),
+<<<<<<< HEAD
         'process.env.CHAIN_ID': JSON.stringify(process.env.CHAIN_ID),
         'process.env.JSON_RPC': JSON.stringify(process.env.JSON_RPC),
         'process.env.SUBNETWORK': JSON.stringify(process.env.SUBNETWORK),
         'process.env.COIN_NAME': JSON.stringify(process.env.COIN_NAME)
+=======
+        'process.env.PROVIDER_URL': JSON.stringify(process.env.ETHEREUM_JSONRPC_HTTP_URL),
+        'process.env.CONSENSUS_ADDRESS': JSON.stringify(process.env.CONSENSUS_ADDRESS)
+>>>>>>> 93b47745e (Replace banner graph with fuse stats)
       }),
       new webpack.ProvidePlugin({
         process: 'process/browser',
