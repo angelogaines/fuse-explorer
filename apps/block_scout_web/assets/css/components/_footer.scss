@@ -26,6 +26,7 @@ $footer-logo-width: auto !default;
 }
 
 .footer-logo {
+  height: 28px;
   max-height: $footer-logo-height;
   width: $footer-logo-width;
 }
