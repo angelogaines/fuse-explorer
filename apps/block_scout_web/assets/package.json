@@ -35,13 +35,9 @@
     "highlight.js": "^11.4.0",
     "https-browserify": "^1.0.0",
     "humps": "^2.0.1",
-<<<<<<< HEAD
-    "jquery": "^3.4.0",
-=======
     "jquery": "^3.6.1",
     "jquery-circle-progress": "^1.2.2",
     "js-cookie": "^3.0.1",
->>>>>>> 93b47745e (Replace banner graph with fuse stats)
     "lodash.debounce": "^4.0.8",
     "lodash.differenceby": "^4.8.0",
     "lodash.find": "^4.6.0",
@@ -70,14 +66,9 @@
     "phoenix_html": "file:../../../deps/phoenix_html",
     "pikaday": "^1.8.2",
     "popper.js": "^1.14.7",
-<<<<<<< HEAD
-    "reduce-reducers": "^0.4.3",
-    "redux": "^4.0.5",
-=======
     "reduce-reducers": "^1.0.4",
     "redux": "^4.2.0",
     "rxjs": "^7.5.7",
->>>>>>> 93b47745e (Replace banner graph with fuse stats)
     "stream-browserify": "^3.0.0",
     "stream-http": "^3.1.1",
     "sweetalert2": "^11.3.10",
